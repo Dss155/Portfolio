@@ -1,57 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Divyesh | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Suthar Divyesh</h1>
-        <p>Full Stack Web Developer</p>
-    </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a passionate web developer with experience in building full stack applications using HTML, CSS, JavaScript, Node.js, and MySQL/MongoDB. I enjoy solving real-world problems with clean and efficient code.</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
+  <header>
+    <div class="container">
+      <h1>Your Name</h1>
+      <nav>
         <ul>
-            <li>
-                <h3>Online Handmade Goods</h3>
-                <p>A full-stack blog platform built with Node.js, Express, MongoDB, and EJS.</p>
-                <a href="https://github.com/dss155/PHP_Project_Simple" target="_blank">View on GitHub</a>
-            </li>
-            <li>
-                <h3>Task Manager</h3>
-                <p>A to-do web app using JavaScript, Bootstrap, and localStorage.</p>
-                <a href="https://github.com/yourusername/task-manager" target="_blank">View on GitHub</a>
-            </li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-    </section>
+      </nav>
+    </div>
+  </header>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>Node.js, Express.js</li>
-            <li>MongoDB, MySQL</li>
-            <li>Git & GitHub</li>
-        </ul>
-    </section>
+  <section class="hero">
+    <div class="container">
+      <h2>Hi, I'm Your Name</h2>
+      <p>Web Developer | Designer | Tech Enthusiast</p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: dss919138@gmail.com</p>
-        <p>LinkedIn: linkedin.com/in/yourusername</p>
-        <p>GitHub: github.com/dss155</p>
-    </section>
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a passionate web developer with experience in building responsive websites and web applications. I love coding and continuously learning new technologies.</p>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Suthar Divyesh</p>
-    </footer>
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p>Short description of the project.</p>
+        </div>
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>Short description of the project.</p>
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <a href="resume.pdf" class="btn" download>Download My Resume</a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
