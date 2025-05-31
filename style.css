@@ -66,7 +66,7 @@
             width: 100%;
             padding: 20px 0;
             backdrop-filter: blur(20px);
-            background: rgba(12, 142, 223, 0.8);
+            background: rgba(85, 181, 240, 0.8);
             border-bottom: 1px solid var(--glass-border);
             z-index: 1000;
             transition: all 0.3s ease;
