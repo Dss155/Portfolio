@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Typed.js Effect
   if (document.querySelector('.typed-text')) {
     const typed = new Typed('.typed-text', {
-      strings: ['Web Developer', 'UI/UX Designer', 'Freelancer', 'Digital Creator'],
+      strings: ['Website Developer', 'Mobile App Developer', 'Freelancer', 'Full Stack Developer'],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true
