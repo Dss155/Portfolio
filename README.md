@@ -1,6 +1,6 @@
 # 🚀 Divyesh Suthar | Portfolio
 
-[![Portfolio Live](https://img.shields.io/badge/Live%20Demo-Online-blue?style=for-the-badge&logo=google-chrome)](https://your-portfolio-demo-link.com)
+[![Portfolio Live](https://img.shields.io/badge/Live%20Demo-Online-blue?style=for-the-badge&logo=google-chrome)](https://dss155.github.io/Portfolio/)
 [![GitHub](https://img.shields.io/github/followers/Dss155?label=Follow&style=for-the-badge)](https://github.com/Dss155)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/divyesh-suthar-020052342)
 
@@ -28,7 +28,8 @@ This project is a showcase of my work, skills, and services as a professional we
 
 ## 🖼️ Preview
 
-![Portfolio Preview](images/projects/project1.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/19a691ad-a548-4ce4-97dd-4b6a24b73a39" />
+
 
 ---
 
