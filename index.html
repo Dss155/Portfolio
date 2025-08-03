@@ -1,910 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Divyesh Suthar | Full Stack Developer</title>
-  <meta name="description" content="Professional portfolio of Divyesh Suthar, showcasing web development and design skills" />
-  <!-- Favicon -->
-  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Fonts & Icons -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <!-- Swiper CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet" />
-  <!-- AOS Animation CSS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyesh Suthar | Full Stack Developer</title>
+    <meta name="description" content="Professional portfolio of Divyesh Suthar - Modern Full Stack Developer specializing in React, Node.js, and cutting-edge web technologies">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
-<body class="font-inter">
-  <!-- Preloader -->
-  <div id="preloader" class="preloader">
-    <div class="preloader-content">
-      <div class="preloader-logo">
-        <span>D</span>
-      </div>
-      <div class="preloader-text">Loading...</div>
+<body>
+    <div class="bg-effects">
+        <div class="bg-grid"></div>
+        <div class="bg-orbs">
+            <div class="orb"></div>
+            <div class="orb"></div>
+            <div class="orb"></div>
+        </div>
     </div>
-  </div>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="container">
-      <nav class="navbar">
-        <a href="#" class="logo">
-          <div class="logo-icon">
-            <span>D</span>
-          </div>
-          <span class="logo-text">Divyesh</span>
-        </a>
-        
-        <div class="nav-menu" id="nav-menu">
-          <ul class="nav-list">
+    <!-- Navigation -->
+    <nav class="nav">
+        <ul class="nav-links">
             <li><a href="#home" class="nav-link active">Home</a></li>
             <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#services" class="nav-link">Services</a></li>
-            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-            <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
             <li><a href="#contact" class="nav-link">Contact</a></li>
-          </ul>
-        </div>
+        </ul>
         
-        <div class="nav-toggle" id="nav-toggle">
-          <span></span>
-          <span></span>
-          <span></span>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-      </nav>
-    </div>
-  </header>
+    </nav>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="container">
-      <div class="hero-content">
-        <div class="hero-text" data-aos="fade-right">
-          <div class="hero-greeting">
-            <span class="wave">👋</span>
-            <span>Hello, I'm</span>
-          </div>
-          <h1 class="hero-title">
-            Divyesh <span class="gradient-text">Suthar</span>
-          </h1>
-          <div class="hero-subtitle">
-            <span>I'm a </span>
-            <span id="typed-text" class="typed-text"></span>
-          </div>
-          <p class="hero-description">
-            Passionate about creating beautiful, functional web experiences that make a difference. 
-            I combine creativity with technical expertise to build digital solutions that drive results.
-          </p>
-          <div class="hero-buttons">
-            <a href="#contact" class="btn btn-primary">
-              <span>Let's Talk</span>
-              <i class="fas fa-arrow-right"></i>
-            </a>
-            <a href="#portfolio" class="btn btn-secondary">
-              <span>View Work</span>
-              <i class="fas fa-eye"></i>
-            </a>
-          </div>
-          <div class="hero-stats">
-            <div class="stat-item">
-              <span class="stat-number">3+</span>
-              <span class="stat-label">Years Experience</span>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-greeting">
+                        <span class="wave">👋</span>
+                        <span>console.log("Hello World!")</span>
+                    </div>
+                    
+                    <h1 class="hero-title">Divyesh Suthar</h1>
+                    
+                    <div class="hero-subtitle">
+                        <span id="typed-text">Full Stack Developer</span>
+                        <span class="cursor">|</span>
+                    </div>
+                    
+                    <p class="hero-description">
+                        I craft digital experiences that push the boundaries of what's possible. 
+                        Specializing in cutting-edge web technologies, AI integration, and futuristic user interfaces.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Explore My Universe</span>
+                            <i class="fas fa-rocket"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <span>Let's Collaborate</span>
+                            <i class="fas fa-satellite-dish"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="3">0</span>
+                            <span class="stat-label">Years of Innovation</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="50">0</span>
+                            <span class="stat-label">Digital Creations</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="30">0</span>
+                            <span class="stat-label">Happy Humans</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="profile-container">
+                        <div class="profile-frame">
+                            <img src="#" alt="Divyesh Suthar" class="profile-img">
+                        </div>
+                    </div>
+                    
+                    <div class="floating-elements">
+                        <div class="floating-card">
+                            <div class="card-icon">
+                                <i class="fab fa-react"></i>
+                                <span>React.js</span>
+                            </div>
+                        </div>
+                        <div class="floating-card">
+                            <div class="card-icon">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                        </div>
+                        <div class="floating-card">
+                            <div class="card-icon">
+                                <i class="fas fa-brain"></i>
+                                <span>AI/ML</span>
+                            </div>
+                        </div>
+                        <div class="floating-card">
+                            <div class="card-icon">
+                                <i class="fab fa-aws"></i>
+                                <span>Cloud</span>
+                            </div>
+                        </div>
+                        <div class="floating-card">
+                            <div class="card-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Mobile</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="stat-item">
-              <span class="stat-number">50+</span>
-              <span class="stat-label">Projects Done</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number">30+</span>
-              <span class="stat-label">Happy Clients</span>
-            </div>
-          </div>
         </div>
-        
-        <div class="hero-image" data-aos="fade-left">
-          <div class="image-container">
-            <div class="image-bg"></div>
-            <img src="images/profile.jpg" alt="Divyesh Suthar" class="profile-img">
-            <div class="floating-elements">
-              <div class="floating-item item-1">
-                <i class="fab fa-react"></i>
-              </div>
-              <div class="floating-item item-2">
-                <i class="fab fa-js-square"></i>
-              </div>
-              <div class="floating-item item-3">
-                <i class="fab fa-html5"></i>
-              </div>
-              <div class="floating-item item-4">
-                <i class="fab fa-css3-alt"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="social-links">
-        <a href="https://github.com/Dss155" target="_blank" class="social-link">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/divyesh-suthar-020052342" target="_blank" class="social-link">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="#" target="_blank" class="social-link">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" target="_blank" class="social-link">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </div>
+    </section>
 
-      <div class="scroll-indicator">
-        <span class="scroll-text">Scroll</span>
-        <div class="scroll-line"></div>
-      </div>
-    </div>
-  </section>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <div class="section-subtitle">About the Creator</div>
+                <h2 class="section-title">Architecting Digital Futures</h2>
+            </div>
+            
+            <div class="about-grid fade-in">
+                <div class="about-text">
+                    <p>
+                        I'm a visionary full-stack developer with a passion for creating tomorrow's digital experiences today. 
+                        With over 3 years of experience in cutting-edge technologies, I specialize in building applications 
+                        that don't just meet current needs, but anticipate future possibilities.
+                    </p>
+                    <p>
+                        My expertise spans across modern frameworks, cloud architectures, AI integration, and emerging 
+                        technologies. I believe in code that's not just functional, but beautiful, scalable, and 
+                        forward-thinking.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=400&fit=crop" alt="Futuristic workspace">
+                </div>
+            </div>
+            
+            <div class="skills-grid fade-in">
+                <div class="skill-card">
+                    <div class="skill-content">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4 class="skill-title">Frontend Mastery</h4>
+                        <p class="skill-description">React, Next.js, Vue.js, TypeScript, Three.js, WebGL, Progressive Web Apps</p>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-content">
+                        <div class="skill-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h4 class="skill-title">Backend Architecture</h4>
+                        <p class="skill-description">Node.js, Python, GraphQL, Microservices, API Design, Database Optimization</p>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-content">
+                        <div class="skill-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h4 class="skill-title">Cloud & DevOps</h4>
+                        <p class="skill-description">AWS, Docker, Kubernetes, CI/CD, Infrastructure as Code, Serverless</p>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-content">
+                        <div class="skill-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4 class="skill-title">AI & Emerging Tech</h4>
+                        <p class="skill-description">Machine Learning, LLM Integration, Blockchain, IoT, AR/VR Development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- About Section -->
-  <section id="about" class="about section">
-    <div class="container">
-      <div class="section-header" data-aos="fade-up">
-        <span class="section-subtitle">Get to know me</span>
-        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
-      </div>
-      
-      <div class="about-content">
-        <div class="about-image" data-aos="fade-right">
-          <div class="about-img-container">
-            <img src="images/about.jpg" alt="About Divyesh Suthar">
-            <div class="about-overlay">
-              <div class="experience-badge">
-                <span class="experience-number">3+</span>
-                <span class="experience-text">Years of Experience</span>
-              </div>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <div class="section-subtitle">Digital Showcase</div>
+                <h2 class="section-title">Featured Creations</h2>
             </div>
-          </div>
+            
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Next-Gen E-Commerce</h3>
+                        <p class="project-description">
+                            A revolutionary e-commerce platform featuring AI-powered recommendations, 
+                            real-time inventory management, cryptocurrency payments, and immersive AR product previews.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">WebAR</span>
+                            <span class="tech-tag">Blockchain</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://handmadegoods.free.nf" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                Experience Live
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI-Powered Cinema Hub</h3>
+                        <p class="project-description">
+                            An intelligent movie discovery platform with machine learning recommendations, 
+                            sentiment analysis of reviews, and immersive 3D movie browsing experience.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Three.js</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">WebGL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://moviezone4you.free.nf" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                Explore Now
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Quantum Task Manager</h3>
+                        <p class="project-description">
+                            A futuristic project management platform with real-time collaboration, 
+                            AI task optimization, holographic data visualization, and neural interface compatibility.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">WebRTC</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">WebAssembly</span>
+                            <span class="tech-tag">GraphQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Launch Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        <div class="about-text" data-aos="fade-left">
-          <h3 class="about-title">
-            I'm a <span class="gradient-text">Creative Developer</span> & Designer
-          </h3>
-          <p class="about-description">
-            I specialize in creating digital experiences that are not only visually appealing but also 
-            highly functional and user-friendly. My journey in web development has been driven by a 
-            passion for continuous learning and innovation.
-          </p>
-          <p class="about-description">
-            I believe in the power of clean code, thoughtful design, and meaningful user interactions. 
-            Every project I work on is an opportunity to create something unique and impactful.
-          </p>
-          
-          <div class="about-info">
-            <div class="info-item">
-              <i class="fas fa-user icon"></i>
-              <div>
-                <span class="info-label">Name:</span>
-                <span class="info-value">Divyesh Suthar</span>
-              </div>
-            </div>
-            <div class="info-item">
-              <i class="fas fa-envelope icon"></i>
-              <div>
-                <span class="info-label">Email:</span>
-                <span class="info-value">divyesh@example.com</span>
-              </div>
-            </div>
-            <div class="info-item">
-              <i class="fas fa-phone icon"></i>
-              <div>
-                <span class="info-label">Phone:</span>
-                <span class="info-value">+91 12345 67890</span>
-              </div>
-            </div>
-            <div class="info-item">
-              <i class="fas fa-map-marker-alt icon"></i>
-              <div>
-                <span class="info-label">Location:</span>
-                <span class="info-value">Ahmedabad, India</span>
-              </div>
-            </div>
-          </div>
-          
-          <div class="about-buttons">
-            <a href="#" class="btn btn-primary">
-              <span>Download CV</span>
-              <i class="fas fa-download"></i>
-            </a>
-            <a href="#contact" class="btn btn-outline">
-              <span>Hire Me</span>
-              <i class="fas fa-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Skills Section -->
-      <div class="skills-section" data-aos="fade-up">
-        <h4 class="skills-title">Technical <span class="gradient-text">Skills</span></h4>
-        
-        <div class="skills-grid">
-          <div class="skill-category">
-            <h5 class="skill-category-title">Frontend</h5>
-            <div class="skills-list">
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span class="skill-name">HTML5 & CSS3</span>
-                  <span class="skill-percentage">95%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="95%"></div>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span class="skill-name">JavaScript</span>
-                  <span class="skill-percentage">90%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="90%"></div>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span class="skill-name">React.js</span>
-                  <span class="skill-percentage">85%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="85%"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="skill-category">
-            <h5 class="skill-category-title">Backend</h5>
-            <div class="skills-list">
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span class="skill-name">Node.js</span>
-                  <span class="skill-percentage">80%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="80%"></div>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span class="skill-name">Database</span>
-                  <span class="skill-percentage">75%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="75%"></div>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span class="skill-name">API Development</span>
-                  <span class="skill-percentage">85%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="85%"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="skill-category">
-            <h5 class="skill-category-title">Design & Tools</h5>
-            <div class="skills-list">
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span class="skill-name">UI/UX Design</span>
-                  <span class="skill-percentage">88%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="88%"></div>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span class="skill-name">Responsive Design</span>
-                  <span class="skill-percentage">95%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="95%"></div>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span class="skill-name">Version Control</span>
-                  <span class="skill-percentage">90%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="90%"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Services Section -->
-  <section id="services" class="services section">
-    <div class="container">
-      <div class="section-header" data-aos="fade-up">
-        <span class="section-subtitle">What I offer</span>
-        <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
-      </div>
-      
-      <div class="services-grid">
-        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
-          <div class="service-icon">
-            <i class="fas fa-code"></i>
-          </div>
-          <h3 class="service-title">Web Development</h3>
-          <p class="service-description">
-            Custom website development with modern technologies, ensuring fast loading times and seamless user experience.
-          </p>
-          <ul class="service-features">
-            <li>Responsive Design</li>
-            <li>Modern Frameworks</li>
-            <li>SEO Optimized</li>
-            <li>Fast Loading</li>
-          </ul>
-          <div class="service-number">01</div>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <div class="section-subtitle">Initiate Connection</div>
+                <h2 class="section-title">Let's Build the Future</h2>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info fade-in">
+                    <h3>Ready to launch your next breakthrough?</h3>
+                    <p>
+                        I'm always excited to collaborate on projects that push technological boundaries. 
+                        Whether you're building the next unicorn startup or revolutionizing an industry, 
+                        let's create something extraordinary together.
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-satellite"></i>
+                            </div>
+                            <div>
+                                <h4>Digital Transmission</h4>
+                                <p>divyesh@future-dev.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-signal"></i>
+                            </div>
+                            <div>
+                                <h4>Quantum Link</h4>
+                                <p>+91 12345 67890</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div>
+                                <h4>Earth Coordinates</h4>
+                                <p>Ahmedabad, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form fade-in" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Identification</label>
+                        <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Communication Channel</label>
+                        <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Mission Title</label>
+                        <input type="text" id="subject" name="subject" class="form-input" placeholder="Let's build something amazing" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Mission Brief</label>
+                        <textarea id="message" name="message" class="form-textarea" placeholder="Tell me about your vision..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        <span>Initialize Connection</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
         </div>
-        
-        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="service-icon">
-            <i class="fas fa-mobile-alt"></i>
-          </div>
-          <h3 class="service-title">Mobile First Design</h3>
-          <p class="service-description">
-            Creating responsive designs that work perfectly across all devices, from mobile phones to desktop computers.
-          </p>
-          <ul class="service-features">
-            <li>Mobile Optimization</li>
-            <li>Cross-browser Compatible</li>
-            <li>Touch Friendly</li>
-            <li>Performance Focused</li>
-          </ul>
-          <div class="service-number">02</div>
-        </div>
-        
-        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
-          <div class="service-icon">
-            <i class="fas fa-paint-brush"></i>
-          </div>
-          <h3 class="service-title">UI/UX Design</h3>
-          <p class="service-description">
-            User-centered design approach focusing on creating intuitive interfaces and delightful user experiences.
-          </p>
-          <ul class="service-features">
-            <li>User Research</li>
-            <li>Wireframing</li>
-            <li>Prototyping</li>
-            <li>Visual Design</li>
-          </ul>
-          <div class="service-number">03</div>
-        </div>
-        
-        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
-          <div class="service-icon">
-            <i class="fas fa-rocket"></i>
-          </div>
-          <h3 class="service-title">Performance Optimization</h3>
-          <p class="service-description">
-            Optimizing websites for maximum speed and performance to improve user experience and search rankings.
-          </p>
-          <ul class="service-features">
-            <li>Speed Optimization</li>
-            <li>Code Minification</li>
-            <li>Image Optimization</li>
-            <li>Caching Strategies</li>
-          </ul>
-          <div class="service-number">04</div>
-        </div>
-        
-        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
-          <div class="service-icon">
-            <i class="fas fa-search"></i>
-          </div>
-          <h3 class="service-title">SEO & Analytics</h3>
-          <p class="service-description">
-            Improving website visibility through SEO best practices and implementing analytics for data-driven insights.
-          </p>
-          <ul class="service-features">
-            <li>On-page SEO</li>
-            <li>Technical SEO</li>
-            <li>Analytics Setup</li>
-            <li>Performance Tracking</li>
-          </ul>
-          <div class="service-number">05</div>
-        </div>
-        
-        <div class="service-card" data-aos="fade-up" data-aos-delay="600">
-          <div class="service-icon">
-            <i class="fas fa-tools"></i>
-          </div>
-          <h3 class="service-title">Maintenance & Support</h3>
-          <p class="service-description">
-            Ongoing maintenance and support services to keep your website secure, updated, and running smoothly.
-          </p>
-          <ul class="service-features">
-            <li>Regular Updates</li>
-            <li>Security Monitoring</li>
-            <li>Bug Fixes</li>
-            <li>24/7 Support</li>
-          </ul>
-          <div class="service-number">06</div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Portfolio Section -->
-  <section id="portfolio" class="portfolio section">
-    <div class="container">
-      <div class="section-header" data-aos="fade-up">
-        <span class="section-subtitle">My work</span>
-        <h2 class="section-title">Recent <span class="gradient-text">Projects</span></h2>
-      </div>
-      
-      <div class="portfolio-filters" data-aos="fade-up">
-        <button class="filter-btn active" data-filter="all">All Projects</button>
-        <button class="filter-btn" data-filter="web">Web Apps</button>
-        <button class="filter-btn" data-filter="mobile">Mobile</button>
-        <button class="filter-btn" data-filter="design">UI/UX</button>
-      </div>
-      
-      <div class="portfolio-grid">
-        <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="100">
-          <div class="portfolio-image">
-            <img src="images/portfolio-1.png" alt="E-commerce Platform">
-            <div class="portfolio-overlay">
-              <div class="portfolio-content">
-                <h3 class="portfolio-title">E-commerce Platform</h3>
-                <p class="portfolio-category">Web Development</p>
-                <div class="portfolio-links">
-                  <a href="https://handmadegoods.free.nf" class="portfolio-link">
-                    <i class="fas fa-external-link-alt"></i>
-                  </a>
-                  <a href="#" class="portfolio-link">
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/Dss155" class="social-link" target="_blank" title="GitHub">
                     <i class="fab fa-github"></i>
-                  </a>
-                </div>
-              </div>
+                </a>
+                <a href="https://www.linkedin.com/in/divyesh-suthar-020052342" class="social-link" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-link" target="_blank" title="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
             </div>
-          </div>
-          <div class="portfolio-info">
-            <h4 class="portfolio-name">E-commerce Platform</h4>
-            <span class="portfolio-tech">React, Node.js, MongoDB</span>
-          </div>
-        </div>
-        
-        <div class="portfolio-item" data-category="mobile" data-aos="fade-up" data-aos-delay="200">
-          <div class="portfolio-image">
-            <img src="images/portfolio-2.png" alt="Task Management App">
-            <div class="portfolio-overlay">
-              <div class="portfolio-content">
-                <h3 class="portfolio-title">Task Management App</h3>
-                <p class="portfolio-category">Mobile App</p>
-                <div class="portfolio-links">
-                  <a href="https://moviezone4you.free.nf" class="portfolio-link">
-                    <i class="fas fa-external-link-alt"></i>
-                  </a>
-                  <a href="#" class="portfolio-link">
-                    <i class="fab fa-github"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-info">
-            <h4 class="portfolio-name">Task Management App</h4>
-            <span class="portfolio-tech">React Native, Firebase</span>
-          </div>
-        </div>
-        
-        <div class="portfolio-item" data-category="design" data-aos="fade-up" data-aos-delay="300">
-          <div class="portfolio-image">
-            <img src="images/portfolio-3.jpg" alt="Banking UI Design">
-            <div class="portfolio-overlay">
-              <div class="portfolio-content">
-                <h3 class="portfolio-title">Banking UI Design</h3>
-                <p class="portfolio-category">UI/UX Design</p>
-                <div class="portfolio-links">
-                  <a href="#" class="portfolio-link">
-                    <i class="fas fa-external-link-alt"></i>
-                  </a>
-                  <a href="#" class="portfolio-link">
-                    <i class="fab fa-dribbble"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-info">
-            <h4 class="portfolio-name">Banking UI Design</h4>
-            <span class="portfolio-tech">Figma, Adobe XD</span>
-          </div>
-        </div>
-        
-        <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="400">
-          <div class="portfolio-image">
-            <img src="images/portfolio-4.jpg" alt="Blog Platform">
-            <div class="portfolio-overlay">
-              <div class="portfolio-content">
-                <h3 class="portfolio-title">Blog Platform</h3>
-                <p class="portfolio-category">Web Development</p>
-                <div class="portfolio-links">
-                  <a href="#" class="portfolio-link">
-                    <i class="fas fa-external-link-alt"></i>
-                  </a>
-                  <a href="#" class="portfolio-link">
-                    <i class="fab fa-github"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-info">
-            <h4 class="portfolio-name">Blog Platform</h4>
-            <span class="portfolio-tech">Next.js, Sanity CMS</span>
-          </div>
-        </div>
-        
-        <div class="portfolio-item" data-category="mobile" data-aos="fade-up" data-aos-delay="500">
-          <div class="portfolio-image">
-            <img src="images/portfolio-5.jpg" alt="Fitness Tracking App">
-            <div class="portfolio-overlay">
-              <div class="portfolio-content">
-                <h3 class="portfolio-title">Fitness Tracking App</h3>
-                <p class="portfolio-category">Mobile App</p>
-                <div class="portfolio-links">
-                  <a href="#" class="portfolio-link">
-                    <i class="fas fa-external-link-alt"></i>
-                  </a>
-                  <a href="#" class="portfolio-link">
-                    <i class="fab fa-github"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-info">
-            <h4 class="portfolio-name">Fitness Tracking App</h4>
-            <span class="portfolio-tech">Flutter, Firebase</span>
-          </div>
-        </div>
-        
-        <div class="portfolio-item" data-category="design" data-aos="fade-up" data-aos-delay="600">
-          <div class="portfolio-image">
-            <img src="images/portfolio-6.jpg" alt="Startup Website Redesign">
-            <div class="portfolio-overlay">
-              <div class="portfolio-content">
-                <h3 class="portfolio-title">Startup Website Redesign</h3>
-                <p class="portfolio-category">UI/UX Design</p>
-                <div class="portfolio-links">
-                  <a href="#" class="portfolio-link">
-                    <i class="fas fa-external-link-alt"></i>
-                  </a>
-                  <a href="#" class="portfolio-link">
-                    <i class="fab fa-dribbble"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-info">
-            <h4 class="portfolio-name">Startup Website Redesign</h4>
-            <span class="portfolio-tech">Figma, Webflow</span>
-          </div>
-        </div>
-      </div>
-      
-      <div class="portfolio-cta" data-aos="fade-up">
-        <a href="#" class="btn btn-outline">
-          <span>View All Projects</span>
-          <i class="fas fa-arrow-right"></i>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="testimonials section">
-    <div class="container">
-      <div class="section-header" data-aos="fade-up">
-        <span class="section-subtitle">Client feedback</span>
-        <h2 class="section-title">What Clients <span class="gradient-text">Say</span></h2>
-      </div>
-      
-      <div class="testimonials-slider swiper" data-aos="fade-up">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="testimonial-card">
-              <div class="testimonial-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <p class="testimonial-text">
-                "Divyesh exceeded our expectations with his exceptional web development skills. The website he created for us is not only visually stunning but also highly functional and user-friendly."
-              </p>
-              <div class="testimonial-author">
-                <img src="images/testimonial-1.jpg" alt="Sarah Johnson" class="author-image">
-                <div class="author-info">
-                  <h4 class="author-name">Sarah Johnson</h4>
-                  <p class="author-position">CEO, TechStart Inc.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="swiper-slide">
-            <div class="testimonial-card">
-              <div class="testimonial-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <p class="testimonial-text">
-                "Working with Divyesh was a fantastic experience. He delivered our project on time and the quality of work was outstanding. His attention to detail is remarkable."
-              </p>
-              <div class="testimonial-author">
-                <img src="images/testimonial-2.jpg" alt="Michael Chen" class="author-image">
-                <div class="author-info">
-                  <h4 class="author-name">Michael Chen</h4>
-                  <p class="author-position">Founder, Creative Agency</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="swiper-slide">
-            <div class="testimonial-card">
-              <div class="testimonial-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <p class="testimonial-text">
-                "The mobile app Divyesh developed for us has significantly improved our customer engagement. His technical expertise and creative approach are truly impressive."
-              </p>
-              <div class="testimonial-author">
-                <img src="images/testimonial-3.jpg" alt="Emily Rodriguez" class="author-image">
-                <div class="author-info">
-                  <h4 class="author-name">Emily Rodriguez</h4>
-                  <p class="author-position">Product Manager, InnovateCorp</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="contact section">
-    <div class="container">
-      <div class="section-header" data-aos="fade-up">
-        <span class="section-subtitle">Let's work together</span>
-        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
-      </div>
-      
-      <div class="contact-content">
-        <div class="contact-info" data-aos="fade-right">
-          <div class="contact-card">
-            <h3 class="contact-title">Let's discuss your project</h3>
-            <p class="contact-description">
-              I'm always excited to work on new projects and help bring your ideas to life. 
-              Let's connect and discuss how we can work together.
+            
+            <p class="footer-text">
+                © <span id="current-year"></span> Divyesh Suthar • Crafted with quantum precision and digital soul
             </p>
-            
-            <div class="contact-methods">
-              <div class="contact-method">
-                <div class="method-icon">
-                  <i class="fas fa-envelope"></i>
-                </div>
-                <div class="method-info">
-                  <h4>Email</h4>
-                  <p>divyesh@example.com</p>
-                </div>
-              </div>
-              
-              <div class="contact-method">
-                <div class="method-icon">
-                  <i class="fas fa-phone"></i>
-                </div>
-                <div class="method-info">
-                  <h4>Phone</h4>
-                  <p>+91 12345 67890</p>
-                </div>
-              </div>
-              
-              <div class="contact-method">
-                <div class="method-icon">
-                  <i class="fas fa-map-marker-alt"></i>
-                </div>
-                <div class="method-info">
-                  <h4>Location</h4>
-                  <p>Ahmedabad, India</p>
-                </div>
-              </div>
-            </div>
-            
-            <div class="contact-social">
-              <h4>Follow me on</h4>
-              <div class="social-links-contact">
-                <a href="https://github.com/Dss155" target="_blank" class="social-link-contact">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/divyesh-suthar-020052342" target="_blank" class="social-link-contact">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="#" target="_blank" class="social-link-contact">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#" target="_blank" class="social-link-contact">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
-        
-        <div class="contact-form-container" data-aos="fade-left">
-          <form class="contact-form" id="contactForm">
-            <div class="form-group">
-              <div class="input-group">
-                <input type="text" id="name" name="name" required>
-                <label for="name">Your Name</label>
-              </div>
-            </div>
-            
-            <div class="form-group">
-              <div class="input-group">
-                <input type="email" id="email" name="email" required>
-                <label for="email">Your Email</label>
-              </div>
-            </div>
-            
-            <div class="form-group">
-              <div class="input-group">
-                <input type="text" id="subject" name="subject" required>
-                <label for="subject">Subject</label>
-              </div>
-            </div>
-            
-            <div class="form-group">
-              <div class="input-group">
-                <textarea id="message" name="message" rows="5" required></textarea>
-                <label for="message">Your Message</label>
-              </div>
-            </div>
-            
-            <button type="submit" class="btn btn-primary btn-full">
-              <span>Send Message</span>
-              <i class="fas fa-paper-plane"></i>
-            </button>
-          </form>
-          
-          <div id="form-message" class="form-message hidden"></div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-section">
-          <div class="footer-logo">
-            <div class="logo-icon">
-              <span>D</span>
-            </div>
-            <span class="logo-text">Divyesh Suthar</span>
-          </div>
-          <p class="footer-description">
-            A passionate full-stack developer dedicated to creating beautiful, 
-            functional web experiences that make a difference.
-          </p>
-          <div class="footer-social">
-            <a href="https://github.com/Dss155" target="_blank" class="footer-social-link">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/divyesh-suthar-020052342" target="_blank" class="footer-social-link">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#" target="_blank" class="footer-social-link">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#" target="_blank" class="footer-social-link">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </div>
-        </div>
-        
-        <div class="footer-section">
-          <h4 class="footer-title">Quick Links</h4>
-          <ul class="footer-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-section">
-          <h4 class="footer-title">Services</h4>
-          <ul class="footer-links">
-            <li><a href="#services">Web Development</a></li>
-            <li><a href="#services">UI/UX Design</a></li>
-            <li><a href="#services">Mobile Apps</a></li>
-            <li><a href="#services">SEO Optimization</a></li>
-            <li><a href="#services">Maintenance</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-section">
-          <h4 class="footer-title">Newsletter</h4>
-          <p class="newsletter-text">
-            Subscribe to get updates about my latest projects and insights.
-          </p>
-          <form class="newsletter-form">
-            <div class="newsletter-input">
-              <input type="email" placeholder="Your email address" required>
-              <button type="submit">
-                <i class="fas fa-paper-plane"></i>
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-      
-      <div class="footer-bottom">
-        <div class="footer-copyright">
-          <p>&copy; <span id="currentYear"></span> Divyesh Suthar. All rights reserved.</p>
-        </div>
-        <div class="footer-links-bottom">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Back to Top Button -->
-  <div class="back-to-top" id="backToTop">
-    <i class="fas fa-arrow-up"></i>
-  </div>
-
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
