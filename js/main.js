@@ -106,8 +106,9 @@ class FuturisticPortfolio {
         const texts = [
             'Full Stack Developer',
             'AI Enthusiast',
-            'Future Architect',
-            'Digital Innovator',
+            'Web Developer',
+            'Backend Developer',
+            'Frontend Developer',
             'Tech Visionary'
         ];
 
